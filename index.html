@@ -46,6 +46,34 @@
             color: #4a4a4a;
         }
         
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            /* Styling for Outlook */
+            line-height: 0;
+            /* Styling for Outlook */
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        
+        .three-columns .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            /* Makes the columns align in a row */
+            vertical-align: top;
+            /* Styling for Outlook */
+        }
+        
+        .padding {
+            padding: 15px;
+        }
+        
+        .three-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        
         @media screen and (max-width: 600px) {}
         
         @media screen and (max-width: 400px) {}
@@ -67,6 +95,44 @@
                                     <a href="#">
                                         <img src="img/old POE logo.jpeg" width="180" alt="Logo" title="Logo">
                                     </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="#">
+                            <img src="img/1200x700.jpg" width="600" alt="Banner">
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing: 0;">
+                            <tr>
+                                <td class="three-columns">
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#">
+                                                                <img width="150" style="max-width: 150px;" src="img/380x280.jpg" alt="">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
                                 </td>
                             </tr>
                         </table>
