@@ -80,9 +80,23 @@
             font-size: 16px;
         }
         
-        @media screen and (max-width: 600px) {}
+        @media screen and (max-width: 600px) {
+            img.third-img-last {
+                width: 200px!important;
+                max-width: 200px!important;
+            }
+            .padding {
+                padding-right: 0!important;
+                padding-left: 0!important;
+            }
+        }
         
-        @media screen and (max-width: 400px) {}
+        @media screen and (max-width: 400px) {
+            img.third-img {
+                width: 200px!important;
+                max-width: 200px!important;
+            }
+        }
     </style>
 </head>
 
@@ -130,7 +144,7 @@
                                                     <tr>
                                                         <td>
                                                             <a href="#">
-                                                                <img src="https://i.ibb.co/vXk0q5b/380x280.jpg" alt="" width="150px" style="max-width: 150px">
+                                                                <img src="https://i.ibb.co/vXk0q5b/380x280.jpg" class="third-img" alt="" width="150px" style="max-width: 150px">
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -157,7 +171,7 @@
                                                     <tr>
                                                         <td>
                                                             <a href="#">
-                                                                <img src="https://i.ibb.co/6b7m6dS/380x280-3.jpg" alt="" width="150px" style="max-width: 150px">
+                                                                <img src="https://i.ibb.co/6b7m6dS/380x280-3.jpg" class="third-img" alt="" width="150px" style="max-width: 150px">
                                                             </a>
                                                         </td>
                                                     </tr>
